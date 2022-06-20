@@ -17,8 +17,26 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <span id="advice"></span>
-    <span id="adviceID"></span>
+    <main>
+      <article>
+        <p>Advice #<span id="adviceID">13</span></p>
+        <h2>“<span id="advice"></span>”</h2>
+        <section class="separator">
+          <hr />
+          <div class="rec"></div>
+          <div class="rec"></div>
+          <hr />
+        </section>
+        <button id="generate" onclick="">
+          <span
+            class="iconify"
+            data-icon="fa6-solid:dice-five"
+            style="color: hsl(218, 25%, 15%)"
+          ></span>
+        </button>
+      </article>
+    </main>
+
     <!-- Advice ID goes here -->
 
     <!-- <div class="attribution">
@@ -27,6 +45,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div> -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
